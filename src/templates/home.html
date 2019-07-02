@@ -12,11 +12,6 @@
 
 {{ user.is_authenticated }}
 
-{% if user.is_authenticated %}
-    {% for a in my_list %}
-        <li> {{a}}</li>
-    {% endfor %}
-{% endif %}
 
 {% endblock content %}
 
